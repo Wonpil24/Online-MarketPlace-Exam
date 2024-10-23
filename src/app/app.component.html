@@ -1,0 +1,7 @@
+<h1>{{ title }}</h1>
+<div *ngIf="products.length === 0">
+  <p>No products available.</p>
+</div>
+<ul>
+  <li *ngFor="let product of products">{{ product.getProductInfo() }}</li>
+</ul>

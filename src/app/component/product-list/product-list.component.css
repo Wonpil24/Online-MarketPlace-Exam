@@ -1,0 +1,30 @@
+/* ตั้งค่าให้ผลิตภัณฑ์แสดงเป็นแบบรายการ */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* เว้นระยะห่างระหว่างผลิตภัณฑ์ */
+}
+
+/* สไตล์ของการ์ดผลิตภัณฑ์ */
+.product-card {
+    border: 1px solid #ccc; /* ขอบของการ์ด */
+    border-radius: 8px; /* มุมของการ์ด */
+    padding: 16px; /* เว้นระยะห่างภายในการ์ด */
+    width: 200px; /* กำหนดความกว้างของการ์ด */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาของการ์ด */
+    text-align: center; /* จัดตำแหน่งข้อความ */
+    background-color: #fff; /* สีพื้นหลัง */
+}
+
+/* สไตล์ของชื่อผลิตภัณฑ์ */
+.product-title {
+    font-size: 18px; /* ขนาดตัวอักษร */
+    font-weight: bold; /* หนักตัวอักษร */
+}
+
+/* สไตล์ของภาพผลิตภัณฑ์ */
+.product-image {
+    width: 100%; /* กำหนดให้ภาพกว้างเต็มการ์ด */
+    height: auto; /* ให้ความสูงอัตโนมัติ */
+    border-radius: 4px; /* มุมของภาพ */
+}

@@ -1,0 +1,7 @@
+<h2>Product List</h2>
+<div *ngIf="products.length === 0">No products available.</div>
+<ul>
+    <li *ngFor="let product of products">
+        {{ product.name }} - ${{ product.price }} ({{ product.category }})
+    </li>
+</ul>
